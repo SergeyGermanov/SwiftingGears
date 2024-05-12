@@ -18,6 +18,65 @@ header {
     justify-content: center;
 }
 
+.code-block {
+  background-color: #272822; /* Dark gray background */
+  color: #f8f8f2; /* Light gray text */
+  font-family: "Menlo", "Monaco", monospace; /* Xcode code font */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Code Snippet */
+.code-line {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.keyword {
+  color: #f92672; /* Pink */
+}
+
+.variable {
+  color: #a6e22e; /* Green */
+}
+
+.number {
+  color: #ae81ff; /* Purple */
+}
+
+.comment {
+  color: #75715e; /* Gray */
+}
+
+.operator {
+  color: #f8f8f2; /* Light gray */
+}
+
+.print {
+  color: #66d9ef; /* Blue */
+}
+
+.type {
+color: #4ec9b0;
+}
+
+.string {
+color: #ce9178;
+}
+
+/* Code Snippet */
+
+.prompt {
+  padding: 0 60px 0 60px;
+}
+
+.prompt p {
+  font-style: italic;
+  font-size: medium;
+  color: #625dc5;
+}
 
 .card {
     display: flex;
@@ -109,9 +168,9 @@ article {
     border-radius: 8px;
   }
   
-  article h2 {
+  article h2, h3 {
     font-size: 24px;
-    color: #333;
+    color: #ff5733;
   }
   
   article p {

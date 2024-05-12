@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- HTML Meta Tags -->
+    <title>
+      Swifting Gears: 100 Days of SwiftUI Intro ✅. Now, onto Checkpoint
+      Solutions!
+    </title>
+    <meta
+      name="description"
+      content="100 Days of SwiftUI Intro ✅. Now, onto Checkpoint Solutions!"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://sergeygermanov.github.io/SwiftingGears/article_1.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Swifting Gears: 100 Days of SwiftUI Intro ✅. Now, onto Checkpoint Solutions!"
+    />
+    <meta
+      property="og:description"
+      content="100 Days of SwiftUI Intro ✅. Now, onto Checkpoint Solutions!"
+    />
+    <meta
+      property="og:image"
+      content="https://sergeygermanov.github.io/SwiftingGears/img/logoWide.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="2528" />
+    <meta property="og:image:height" content="1616" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="sergeygermanov.github.io" />
+    <meta
+      property="twitter:url"
+      content="https://sergeygermanov.github.io/SwiftingGears/article_1.html"
+    />
+    <meta
+      name="twitter:title"
+      content="Swifting Gears: From React to SwiftUI"
+    />
+    <meta
+      name="twitter:description"
+      content="100 Days of SwiftUI Intro ✅. Now, onto Checkpoint Solutions!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://sergeygermanov.github.io/SwiftingGears/img/logoWide.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="2528" />
+    <meta property="og:image:height" content="1616" />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="card">
+        <div class="avatar">
+          <img src="img/avatar.jpg" alt="Your Avatar" />
+        </div>
+        <div class="intro">
+          <h1>Swifting Gears: From React to SwiftUI</h1>
+          <p>Join me as I shift gears into the exciting world of SwiftUI!</p>
+        </div>
+      </div>
+      <nav class="navbar">
+        <div class="container">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <article>
+          <h3>100 Days of SwiftUI Intro ✅. Now, onto Checkpoint Solutions!</h3>
+          <figure>
+            <img
+              src="img/solutions_to_checkpoints.jpeg"
+              alt="Header Image of Solutions to Checkpoints for 100 Days of SwiftUI"
+            />
+            <figcaption>
+              <a
+                class="captions"
+                href="https://unsplash.com/photos/person-playing-magic-cube-4Ennrbj1svk"
+                >Photo</a
+              >
+              by
+              <a class="captions" href="https://unsplash.com/@olav_ahrens"
+                >Olav Ahrens</a
+              >
+              on
+              <a class="captions" href="https://unsplash.com">Unsplash</a>
+            </figcaption>
+          </figure>
+          <p>
+            It is quite difficult to force yourself to dedicate yourself to a
+            daily activity of learning something new. I am not that person who
+            starts something and then just drops it. At least not anymore 😇. I
+            have found that I really started enjoying learning how to code in
+            Swift for iOS. It is getting more and more interesting every day.
+            Although Paul Hudson’s challenge is amazing there is still something
+            I would like to record for myself. Checkpoint solutions are code
+            snippets that I would like to keep here in case I decide to update
+            them in the future.
+          </p>
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-1"
+              >Let’s start with the Checkpoint 1.</a
+            >
+          </h4>
+          <p>
+            This one is the easiest as it checks your understanding of declaring
+            variables. You need to show how you can use add, multiply, and
+            divide Swift language operators. Of course the use of print and
+            string interpolation.
+          </p>
+          <div class="prompt">
+            <p>
+              The goal here is to convert Celsius to Fahrenheit with the help of
+              a Swift playground. The task is the following:
+            </p>
+            <p>1. Creates a constant holding any temperature in Celsius.</p>
+            <p>
+              2. Converts it to Fahrenheit by multiplying by 9, dividing by 5,
+              then adding 32.
+            </p>
+            <p>
+              3. Prints the result for the user, showing both the Celsius and
+              Fahrenheit values.
+            </p>
+          </div>
+
+          <p>
+            There is no free solution for the checkpoints but there are some
+            hints that I encourage you to follow if you are stuck or you are at
+            the very beginning of your coding journey. If you have the
+            opportunity to buy access to the solutions by subscribing
+            to full tutorials (<a
+              href="https://www.hackingwithswift.com/plus/solutions/checkpoint-1"
+              >https://www.hackingwithswift.com/plus/solutions/checkpoint-1</a
+            >) you should do it.
+          </p>
+          <p>I decided to go the other way and find the solutions myself.</p>
+
+          <pre class="code-block">
+            <code>
+              <span class="keyword">var</span> <span class="variable">celciusTemperature</span> = <span class="number">19.0</span>
+        
+              <span class="keyword">var</span> <span class="variable">fahrenheitTemperature</span> = (<span class="variable">celciusTemperature</span> * <span class="number">9</span> / <span class="number">5</span>) + <span class="number">32</span>
+        
+              <span class="print">print</span>(
+                <span class="string">"""
+                This is the temperature in Celcius: \(celciusTemperature)°C
+                And this is the temperature in Fahrenheit: \(fahrenheitTemperature)°F
+                """</span>
+              )
+            </code>
+          </pre>
+          <p>
+            First I have googled the formula of Celsius to Fahrenheit conversion
+            to make it easier to see - (0°C × 9/5) + 32 = 32°F.
+          </p>
+          <p>
+            Next step I created a variable to hold temperature in Celsius and
+            tried to call it as meaningful as possible (celciusTemperature). In
+            Swift, as in JavaScript, you can put calculations after equal sign
+            when you declare the variable. So I converted the Fahrenheit formula
+            to the language Swift compiler can understand
+            and after declaring the fahrenheitTemperature variable made it equal
+            to the formula. That gives us celciusTemperature as the holder
+            of °C and fahrenheitTemperature equals °F. 
+          </p>
+          <p>
+            I wanted to print the result in two lines and instead of using <span
+              class="print"
+              >print()</span
+            > twice or using \n I chose to practice ””” triple quotations.
+            And of course, I used String
+            interpolation \(fahrenheitTemperature) to show the results.  One
+            more thing I used a keyboard shortcut to enter the degree symbol
+            (°). You should press Option + Shift + 8 on the keyboard to enter
+            the symbol.
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-2"
+              >Checkpoint 2.</a
+            >
+          </h4>
+
+          <p>
+            Here you have to create an array of strings, then write some code
+            that prints the number of items in the array and also the number
+            of unique items in the array. The most important thing here is a
+            unique number of items of course. The best way is to use a Set as it
+            doesn’t allow duplicates inside.
+          </p>
+
+          <p>This is the code I came up with.</p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">let</span> <span class="variable">enigmaAlbums</span>: [<span class="type">String</span>] = [
+                      <span class="string">"The Fall of a Rebel Angel"</span>, 
+                      <span class="string">"The Fall of a Rebel Angel"</span>, 
+                      <span class="string">"Seven Lives Many Faces"</span>, 
+                      <span class="string">"Voyageur"</span>, 
+                      <span class="string">"A Posteriori"</span>, 
+                      <span class="string">"The Screen Behind the Mirror"</span>, 
+                      <span class="string">"The Cross of Changes"</span>, 
+                      <span class="string">"Le Roi est Mort"</span>, 
+                      <span class="string">"Vive le Roi!"</span>, 
+                      <span class="string">"MCMXC a.D."</span>
+                      ]
+        
+                <span class="print">print</span>(<span class="string">"Number of items in the array:</span> \(<span class="variable">enigmaAlbums</span>.<span class="type">count</span>)<span class="string">"</span>)
+        
+                <span class="keyword">let</span> <span class="variable">setOfEngimaAlbums</span>: <span class="type">Set</span>&lt;<span class="type">String</span>&gt; = <span class="type">Set</span>(<span class="variable">enigmaAlbums</span>)
+        
+                <span class="print">print</span>(<span class="string">"Unique number of items is:</span> \(<span class="variable">setOfEngimaAlbums</span><span class="type">.count</span>)<span class="string">"</span>)
+            </code>
+        </pre>
+
+          <p>
+            I decided to use the albums of Enigma. I was listening to it at that
+            time. Google the top albums and add them to an Array. I used let to
+            declare a constant array as I am not going to update it anywhere
+            else. I added some album names 2 times to make it clear to see if my
+            code works and can print the number of items all together and
+            without duplicates. The first part to print the number of all items
+            is done with .count added after the variable enigmaAlbums. 
+          </p>
+          <p>
+            As the next step I need to convert Array to Set to get rid of
+            duplicates and it is done by Set(Array). After that, I printed the
+            number of items in the Set by using the same .count added now to a
+            Set.
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-3"
+              >Checkpoint 3.</a
+            >
+          </h4>
+
+          <div class="prompt">
+            <p>The goal is to loop from 1 through 100, and:</p>
+            <p>1. If it’s a multiple of 3, print “Fizz”</p>
+            <p>2. If it’s a multiple of 5, print “Buzz”</p>
+            <p>3. If it’s a multiple of 3 and 5, print “FizzBuzz”</p>
+            <p>4. Otherwise, just print the number.</p>
+          </div>
+
+          <p>
+            This challenge is checking your logic and usage of conditions and a
+            new method .isMultiple(of: )
+          </p>
+          <p>Here is the solution to this challenge that I did.</p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">for</span> <span class="variable">i</span> <span class="keyword">in</span> <span class="number">1</span>...<span class="number">100</span> {
+                    <span class="keyword">if</span> <span class="variable">i</span><span class="type">.isMultiple</span>(of: <span class="number">15</span>) {
+                        <span class="print">print</span>(<span class="string">"It is</span> \(<span class="variable">i</span>) <span class="string">and it is - FizzBuzz!"</span>)
+                    } <span class="keyword">else</span> <span class="keyword">if</span> <span class="variable">i</span><span class="type">.isMultiple</span>(of: <span class="number">5</span>) {
+                        <span class="print">print</span>(<span class="string">"It is</span> \(<span class="variable">i</span>) <span class="string">and it is - Buzz!"</span>)
+                    } <span class="keyword">else</span> <span class="keyword">if</span> i.isMultiple(of: <span class="number">3</span>) {
+                        <span class="print">print</span>(<span class="string">"It is</span> \(<span class="variable">i</span>) <span class="string">and it is - Fizz!"</span>)
+                    } <span class="keyword">else</span> {
+                        <span class="print">print</span>(<span class="string">"It is</span> \(<span class="variable">i</span>)<span class="string">!"</span>)
+                    }
+                }
+            </code>
+        </pre>
+
+          <p>
+            First I wanted to use the modulo operator (%) like in
+            JavaScript and it worked. Then I remembered that Paul was talking
+            about the .isMultiple(of:) method and rewriting it. This method is
+            easier to use and easier to read than the modulo operator. 
+          </p>
+          <p>
+            In the beginning, I need to start the loop from 1 to 100 and for
+            this, I used for i in 1…100 and then used the if condition to check
+            if every number is equally divided by 15 as it is the first number
+            that is equally divided by 3 and 5. If it is true then I printed "It
+            is \(i) and it is - FizzBuzz!”.
+          </p>
+          <p>
+            The next condition is similar to the first but checks if it is a
+            Multiple of 5 and if yes then prints "It is \(i) and it is -
+            Buzz!”. After I checked if i was Multiple 3 that would give
+            me “Fizz”. And if nothing above is true then I just printed the
+            number represented in the Loop by i variable.  
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-4"
+              >Checkpoint 4.</a
+            >
+          </h4>
+          <p>
+            In this challenge, you need to use your knowledge of throw functions
+            and how to use them along with enums, and loops, and try catch
+            blocks, and break.
+          </p>
+
+          <div class="prompt">
+            <p>
+              The challenge is this: write a function that accepts an integer
+              from 1 through 10,000, and returns the integer square root of that
+              number. That sounds easy, but there are some catches:
+            </p>
+            <p>
+              1. You can’t use Swift’s built-in sqrt() function or similar – you
+              need to find the square root yourself.
+            </p>
+            <p>
+              2. If the number is less than 1 or greater than 10,000 you should
+              throw an “out of bounds” error.
+            </p>
+            <p>
+              3. You should only consider integer square roots – don’t worry
+              about the square root of 3 being 1.732, for example.
+            </p>
+            <p>
+              4. If you can’t find the square root, throw a “no root” error.
+            </p>
+          </div>
+
+          <p>This is my idea of the solution for this checkpoint.</p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">enum</span> <span class="variable">rootErrors</span>: <span class="type">Error</span> {
+                    <span class="type">case</span> <span class="variable">tooLowNumber, tooHighNumber, noRoot</span>
+                }
+                
+                <span class="keyword">func</span> <span class="type">rootReturn</span>(number: <span class="type">Int</span>) <span class="keyword">throws</span> -&gt; <span class="type">Int</span> {
+                    <span class="keyword">if</span> <span class="variable">number</span> &lt; <span class="number">1</span> {<span class="keyword">throw</span> <span class="variable">rootErrors</span>.<span class="type">tooLowNumber</span>}
+                    <span class="keyword">if</span> <span class="variable">number</span> &gt; <span class="number">10000</span> {<span class="keyword">throw</span> <span class="variable">rootErrors</span>.<span class="type">tooHighNumber</span>}
+                    
+                    <span class="keyword">var</span> <span class="variable">root</span>: <span class="type">Int</span> = <span class="number">0</span>
+                    
+                    <span class="keyword">for</span> <span class="variable">i</span> <span class="keyword">in</span> <span class="number">1</span>...<span class="number">100</span> {
+                        <span class="keyword">if</span> <span class="variable">i</span>*<span class="variable">i</span> == <span class="variable">number</span> {
+                          <span class="variable">root</span> = <span class="variable">i</span>
+                            <span class="keyword">break</span>
+                        }
+                        <span class="keyword">if</span> <span class="variable">i</span> == <span class="number">100</span> {<span class="keyword">throw</span> <span class="variable">rootErrors</span>.<span class="type">noRoot</span>}
+                    }
+                    
+                     <span class="keyword">return</span> <span class="variable">root</span>
+                }
+                
+                <span class="keyword">do</span>{
+                    <span class="keyword">let</span> <span class="variable">numberToFind</span>: <span class="type">Int</span> = <span class="number">9</span>
+                    <span class="keyword">let</span> <span class="variable">rootSquare</span>: <span class="type">Int</span> = <span class="keyword">try</span> <span class="type">rootReturn</span>(number: <span class="variable">numberToFind</span>)
+                    <span class="print">print</span>(<span class="string">"The root square of</span> \(<span class="variable">numberToFind</span>) <span class="string">is equal to</span> \(<span class="variable">rootSquare</span>)<span class="string">"</span>)
+                    
+                } <span class="keyword">catch</span> {
+                  <span class="print">print</span>(<span class="string">"There is an error:</span> \(<span class="variable">error</span>)<span class="string">"</span>)
+                }
+            </code>
+        </pre>
+
+          <p>
+            Ok. First I started with an understanding of how to calculate the
+            square root of a number without the sqrt() functions. So easiest way
+            is to loop throw all the integers up to the number you check. If the
+            integer multiplied by the same integer is equal to the number then
+            you found the square root of it. 
+          </p>
+          <p>
+            There is a hint given by Paul that you don’t need to go over 100. So
+            if it is a hundred then it means there is “no root” and the function
+            needs to throw an error. It can be easily done with the if
+            condition but I also to update the function to be able to throw the
+            errors.
+          </p>
+          <p>
+            I created the enum with error cases such as tooLowNumber,
+            tooHighNumber, and noRoot. I added a first condition to the top of
+            the function to check if the number is less
+            than 1 and the next condition is to check if the number
+            is greater than 10000. You should put it at the top to check at the
+            very beginning and do not let the computer do extra work
+            and just throw the error.
+          </p>
+          <p>
+            I used the do { } catch { } combination to use the function I wrote.
+            Within the curly brackets of do scope, I put the variable that holds
+            the number I need to find a square root and a variable that
+            tries the rootReturn function, and if all is good prints the
+            result otherwise the catch part prints the error.   
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-5"
+              >Checkpoint 5.</a
+            >
+          </h4>
+          <p>
+            In this checkpoint, you revise your understanding of closures and
+            inline code writing along with universal parameter names. 
+          </p>
+
+          <div class="prompt">
+            <p>
+              You are given the following input: let luckyNumbers = [7, 4, 38,
+              21, 16, 15, 12, 33, 31, 49]
+            </p>
+            <p>Here you have to:</p>
+            <p>1. Filter out any numbers that are even.</p>
+            <p>2. Sort the array in ascending order.</p>
+            <p>3. Map them to strings in the format “7 is a lucky number”.</p>
+            <p>4. Print the resulting array, one item per line.</p>
+          </div>
+
+          <p>My solution looks like this:</p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">let</span> <span class="variable">luckyNumbers</span> = [<span class="number">7</span>, <span class="number">4</span>, <span class="number">38</span>, <span class="number">21</span>, <span class="number">16</span>, <span class="number">15</span>, <span class="number">12</span>, <span class="number">33</span>, <span class="number">31</span>, <span class="number">49</span>]
+        
+                <span class="keyword">let</span> <span class="variable">filteredNumbers</span>: () = <span class="variable">luckyNumbers</span>
+                                <span class="type">.filter</span> { !$0.<span class="type">isMultiple</span>(of: <span class="number">2</span>) }
+                                <span class="type">.sorted</span> { $0 &lt; $1 }
+                                <span class="type">.forEach</span> {
+                                      <span class="print">print</span>(<span class="string">"</span>\($0) <span class="string">is a lucky number"</span>) 
+                                    }
+            </code>
+        </pre>
+
+          <p>
+            This looks more familiar to me as it is the way you write code in
+            React and it showed itself very efficient but takes time to
+            understand it.
+          </p>
+          <p>
+            In the beginning, I decided to filter the whole array and create a
+            new array of integers that are not equally divided by 2. I did it by
+            using $0 as a universal representer for an item in the loop that
+            filter closer does and it was checked if it is multiple of 2
+            (!$0.isMultiple(of: 2)). I had to put (!) to say that it will
+            be true if it is not correct. So that added to a new array only the
+            integers that are not even.
+          </p>
+          <p>
+            After that, I sorted the new array by .sorted{ $0 < $1 } where <
+            operator shows that a preceding item is larger than the one
+            after it. If you change it to > then it will sort it in descending
+            order. In the last part, I used .forEach to loop through all the
+            items of a new array and print all the lucky numbers. 
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-6"
+              >Checkpoint 6.</a
+            >
+          </h4>
+          <p>
+            This challenge is a little bigger as you need to work with structs
+            and use most of the things you learned about them in your code.
+          </p>
+
+          <div class="prompt">
+            <p>1. Create a struct to store information about a car.</p>
+            <p>2. Include: Its model, Number of seats,Current gear.</p>
+            <p>3. Add a method to change gears up or down.</p>
+            <p>4. Have a think about variables and access control.</p>
+            <p>5. Don't allow invalid gears - 1...10 seems a fair maximum.</p>
+            <p></p>
+          </div>
+
+          <p>This is how I came up with the solution.</p>
+
+          <pre class="code-block">
+            <code>
+              <span class="keyword">struct</span> <span class="type">Car</span> {
+                <span class="keyword">let</span> <span class="variable">model</span>: <span class="type">String</span>
+                <span class="keyword">let</span> <span class="variable">seatsNumber</span>: <span class="type">Int</span>
+                <span class="keyword">var</span> <span class="variable">gear</span>: <span class="type">Int</span>
+                    
+                <span class="keyword">mutating func</span> <span class="type">gearChange</span>(directions: <span class="type">String</span>) {
+                  <span class="keyword">if</span> <span class="variable">directions</span> == <span class="string">"Up"</span> && <span class="variable">gear</span> &lt; <span class="number">10</span> {
+                    <span class="variable">gear</span> += <span class="number">1</span>
+                            <span class="print">print</span>(<span class="string">"Gear is changed Up to</span> \(<span class="variable">gear</span>)<span class="string">"</span>)
+                        } <span class="keyword">else if</span> <span class="variable">directions</span> == <span class="string">"Down"</span> && <span class="variable">gear</span> &gt; <span class="number">1</span> {
+                          <span class="variable">gear</span> -= <span class="number">1</span>
+                            <span class="print">print</span>(<span class="string">"Gear is changed Down to</span> \(<span class="variable">gear</span>)<span class="string">"</span>)
+                        } <span class="keyword">else</span> {
+                            <span class="print">print</span>(<span class="string">"Wrong move!"</span>)
+                            <span class="print">print</span>(<span class="string">"You should use only words</span> \<span class="string">"Up</span>\<span class="string">" or</span> \<span class="string">"Down</span>\<span class="string">""</span>)
+                        }
+                    }
+                    
+                    <span class="type">init</span>(model: <span class="type">String</span>, seatsNumber: <span class="type">Int</span>, gear: <span class="type">Int</span>) {
+                      <span class="keyword">self</span><span class="variable">.model</span> = model
+                      <span class="keyword">self</span><span class="variable">.seatsNumber</span> = seatsNumber
+                      
+                      <span class="keyword">if</span> <span class="variable">gear</span> &gt; <span class="number">1</span> && <span class="variable">gear</span> &lt;= <span class="number">10</span> {
+                        <span class="keyword">self</span>.<span class="variable">gear</span> = gear
+                        } <span class="keyword">else</span> {
+                          <span class="keyword">self</span><span class="variable">.gear</span> = <span class="number">1</span>
+                        }
+                    }
+                }
+                
+                <span class="keyword">var</span> <span class="variable">myCar</span> = <span class="variable">Car</span>(model: <span class="string">"Honda"</span>, seatsNumber: <span class="number">5</span>, gear: <span class="number">2</span>)
+                
+                <span class="variable">myCar</span><span class="type">.gearChange</span>(directions: <span class="string">"forward"</span>)
+                <span class="variable">myCar</span><span class="type">.gearChange</span>(directions: <span class="string">"Up"</span>)
+                <span class="variable">myCar</span><span class="type">.gearChange</span>(directions: <span class="string">"Up"</span>)
+                <span class="variable">myCar.gear</span>
+            </code>
+        </pre>
+
+          <p>
+            First I created the struct Car that contains variables of a car
+            model, seat number, and gear. 
+          </p>
+          <p>
+            Secondly, I have added a method to change gears Up or Down that is
+            why it should take a String parameter of a direction. Because it
+            will update the variable inside the structure I had to put
+            “mutating” in front of the method. So I first check if the direction
+            is equal to “Up” and the gear is not more than 10 then 1 is added to
+            the gear and the method is printing that it changed up. If the
+            direction parameter is equal to “Down” and the gear number is not
+            less one than it 1 is subtracted from the gear variable. If none of
+            the above then it prints “Wrong move”.
+          </p>
+          <p>
+            As I needed to stop anyone from creating a car with gear put to less
+            than 1 or greater than 10 I wrote my own initializer to implement
+            that logic. I added if statement when initializing gear.
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-7"
+              >Checkpoint 7.</a
+            >
+          </h4>
+          <p>
+            This checkpoint is one with a quite long code to be done here. You
+            need to revise Classes and Hierarchy as well as Override for methods
+            and create class Initialisers. 
+          </p>
+
+          <div class="prompt">
+            <p>This is what you need to do in this challenge:</p>
+            <p>1. Make a class hierarchy for animals.</p>
+            <p>
+              2. Start with Animal. Add a legs property for the number of legs
+              an animal has.
+            </p>
+            <p>
+              3. Make Dog a subclass of Animal, giving it a speak method that
+              prints a dog barking string, but each subclass should print
+              something different.
+            </p>
+            <p>4. Make Corgi and Poodle subclasses of Dog.</p>
+            <p>
+              5. Make Cat an Animal subclass. Add a speak method, with each
+              subclass printing something different, and an is Tame Boolean, set
+              with an initializer.
+            </p>
+            <p>6. Make Persian and Lion as subclasses of Cat.</p>
+          </div>
+
+          <p>I came up with the following solution to this Checkpoint.</p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">class</span> <span class="type">Animal</span> {
+                    <span class="keyword">var</span> <span class="variable">legs</span>: <span class="type">Int</span>
+                    
+                    <span class="type">init</span>(legs: <span class="type">Int</span>) {
+                        <span class="keyword">self</span>.<span class="variable">legs</span> = legs
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Dog</span>: <span class="type">Animal</span> {
+                    
+                    <span class="keyword">func</span> <span class="type">speak</span>() {
+                        <span class="print">print</span>(<span class="string">"Woof"</span>)
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Corgi</span>: <span class="type">Dog</span> {
+                    <span class="keyword">var</span> <span class="variable">breed</span>: <span class="type">String</span> = <span class="string">"Corgi"</span>
+                    
+                    <span class="keyword">override func</span> <span class="type">speak</span>() {
+                        <span class="print">print</span>(<span class="string">"I am a </span>\(<span class="variable">legs</span>)<span class="string">-leg</span> \(<span class="variable">breed</span>) <span class="string">who barks. Woof!"</span>)
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Poodle</span>: <span class="type">Dog</span> {
+                    <span class="keyword">var</span> <span class="variable">breed</span>: <span class="type">String</span> = <span class="string">"Poodle"</span>
+                    
+                    <span class="keyword">override func</span> <span class="type">speak</span>() {
+                      <span class="print">print</span>(<span class="string">"I am a </span>\(<span class="variable">legs</span>)<span class="string">-leg</span> \(<span class="variable">breed</span>) <span class="string">who barks. Woof!"</span>)
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Cat</span>: <span class="type">Animal</span> {
+                    <span class="keyword">var</span> <span class="variable">isTame</span>: <span class="type">Bool</span>
+                    
+                    <span class="keyword">func</span> <span class="type">speak</span>() {
+                        <span class="print">print</span>(<span class="string">"Meow"</span>)
+                    }
+                    
+                    <span class="type">init</span>(isTame: <span class="type">Bool</span>, legs: <span class="type">Int</span>) {
+                        <span class="keyword">self</span>.<span class="variable">isTame</span> = isTame
+                        <span class="keyword">super</span>.<span class="type">init</span>(legs: legs)
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Persian</span>: <span class="type">Cat</span> {
+                    <span class="keyword">var</span> <span class="variable">breed</span>: <span class="type">String</span> = <span class="string">"Persian"</span>
+                    
+                    <span class="keyword">override func</span> <span class="type">speak</span>() {
+                        <span class="print">print</span>(<span class="string">"I am a</span> \(<span class="variable">breed</span>) <span class="string">who is a</span> \(<span class="variable">isTame</span> ? <span class="string">"tamed"</span> : <span class="string">"wild"</span>) <span class="string">cat!"</span>)
+                    }
+                }
+                
+                <span class="keyword">class</span> <span class="type">Lion</span>: <span class="type">Cat</span> {
+                    <span class="keyword">var</span> <span class="variable">breed</span>: <span class="type">String</span> = <span class="string">"Lion"</span>
+                    
+                    <span class="keyword">override func</span> <span class="type">speak</span>() {
+                        <span class="print">print</span>(<span class="string">"I am a</span> \(<span class="variable">breed</span>) <span class="string">who is a</span> \(<span class="variable">isTame</span> ? <span class="string">"tamed"</span> : <span class="string">"wild"</span>) <span class="string">cat!"</span>)
+                    }
+                }
+                
+                <span class="keyword">let</span> <span class="variable">dog</span> = <span class="type">Dog</span>(legs: <span class="number">4</span>)
+                <span class="variable">dog</span>.<span class="type">speak</span>()
+                
+                <span class="keyword">let</span> <span class="variable">corgi</span> = <span class="type">Corgi</span>(legs: <span class="number">4</span>)
+                <span class="variable">corgi</span>.<span class="type">speak</span>()
+                
+                <span class="keyword">let</span> <span class="variable">poodle</span> = <span class="type">Poodle</span>(legs: <span class="number">4</span>)
+                <span class="variable">poodle</span>.<span class="type">speak</span>()
+                
+                <span class="keyword">let</span> <span class="variable">cat</span> = <span class="type">Cat</span>(isTame: <span class="keyword">true</span>, legs: <span class="number">4</span>)
+                <span class="variable">cat</span>.<span class="type">speak</span>()
+                
+                <span class="keyword">let</span> <span class="variable">persian</span> = <span class="type">Persian</span>(isTame: <span class="keyword">true</span>, legs: <span class="number">4</span>)
+                <span class="variable">persian</span>.<span class="type">speak</span>()
+                
+                <span class="keyword">let</span> <span class="variable">lion</span> = <span class="type">Lion</span>(isTame: <span class="keyword">false</span>, legs: <span class="number">4</span>)
+                <span class="variable">lion</span>.<span class="type">speak</span>()
+            </code>
+        </pre>
+
+          <p>
+            The first thing is to create a Class of Animal which is a parent and
+            has only a property of legs as Integer. To make this class work I
+            needed to write an initializer that takes a parameter of legs and
+            assigns it to property legs (self.legs = legs). After this, we can
+            create a class of an Animal that can have legs of your choice.
+          </p>
+          <p>
+            The next step is to write a Subclass of
+            a Dog using inheritance (class Dog: Animal) and give the dog the
+            possibility to speak by adding a method speak(). 
+          </p>
+          <p>
+            Later I added two more subclasses of Dog which was a subclass of
+            an Animal. These classes are Corgi and Poodle.
+            Technically they inherit everything from a Dog class because they
+            are its children. Because the Dog is a subclass of an Animal that
+            means that Corgi and Poodle are the Animal’s grandchildren and
+            inherit everything from it too. We also need Corgi and Poodle to say
+            something different when speak() is called. To make it possible I
+            used Override in front of the speak() method inside new
+            subclasses and updated what Dog’s method can print.
+          </p>
+          <p>
+            Similar to this I have created a Cat class which is a subclass
+            of Animal and added a speak() method and a
+            new Bool property isTame. Here I had to use a new init() as I was
+            adding the isTame property. Even if it is a subclass initializer we
+            still need to pass the legs property to it and then to its parent by
+            using super.init(legs: legs). As you may see a subclass of Cat has a
+            new property which I used as a default so I don’t need to add it to
+            the initializer and can easily differentiate it in code for myself.
+            I also override the speak() method and use breed property along
+            with isTame to print a new String when speak() is called. 
+          </p>
+          <p>
+            I added the possibility to change the printed string when you change
+            the isTame property if you decide to change it when creating a
+            new Lion or Persian class. I put a ternary operator to choose
+            between “wild” and “tamed” depending on isTame Boolean.
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-8"
+              >Checkpoint 8.</a
+            >
+          </h4>
+          <p>
+            Here is the revision done around protocols and extensions
+            and of course, creating structs based on them.
+          </p>
+
+          <div class="prompt">
+            <p>1. Make a protocol that describes a building.</p>
+            <p>2. Your protocol should require the following:</p>
+            <p>* A property storing how many rooms it has.</p>
+            <p>* A property storing the cost as an integer.</p>
+            <p>
+              * A property storing the name of the estate agent selling the
+              building.
+            </p>
+            <p>* A method for printing the sales summary of the building.</p>
+            <p>3. Create two structs, House and Office, that conform to it.</p>
+          </div>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">protocol</span> <span class="type">Building</span> {
+                    <span class="keyword">var</span> <span class="variable">rooms</span>: <span class="type">Int</span> {<span class="keyword">get</span>}
+                    <span class="keyword">var</span> <span class="variable">cost</span>: <span class="type">Int</span> {<span class="keyword">get</span>}
+                    <span class="keyword">var</span> <span class="variable">agentName</span>: <span class="type">String</span> {<span class="keyword">get</span>}
+                    
+                    <span class="keyword">func</span> <span class="type">salesSummary</span>()
+                }
+                
+                <span class="keyword">extension</span> <span class="type">Building</span> {
+                    <span class="keyword">func</span> <span class="type">salesSummary</span>() {
+                        <span class="print">print</span>(<span class="string">"The property of</span> \(<span class="keyword">self</span><span class="variable">.rooms</span>) <span class="string">rooms was sold by</span> \(<span class="keyword">self</span><span class="variable">.agentName</span>) <span class="string">for</span> $\(<span class="keyword">self</span><span class="variable">.cost</span>)<span class="string">!"</span>)
+                    }
+                }
+                
+                <span class="keyword">struct</span> <span class="type">House</span>: <span class="type">Building</span> {
+                    <span class="keyword">let</span> <span class="variable">rooms</span>: <span class="type">Int</span> = <span class="number">12</span>
+                    <span class="keyword">let</span> <span class="variable">cost</span>: <span class="type">Int</span> = <span class="number">1_200_000</span>
+                    <span class="keyword">let</span> <span class="variable">agentName</span>: <span class="type">String</span> = <span class="string">"John Travolta"</span>
+                }
+                
+                <span class="keyword">struct</span> <span class="type">Office</span>: <span class="type">Building</span> {
+                    <span class="keyword">var</span> <span class="variable">rooms</span>: <span class="type">Int</span> = <span class="number">3</span>
+                    <span class="keyword">var</span> <span class="variable">cost</span>: <span class="type">Int</span> = <span class="number">300_000</span>
+                    <span class="keyword">var</span> <span class="variable">agentName</span>: <span class="type">String</span> = <span class="string">"Meralyn Manson"</span>
+                }
+                
+                <span class="keyword">let</span> <span class="variable">house</span> = <span class="type">House</span>()
+                <span class="keyword">let</span> <span class="variable">office</span> = <span class="type">Office</span>()
+                
+                <span class="variable">house</span>.<span class="type">salesSummary</span>()
+                <span class="variable">office</span>.<span class="type">salesSummary</span>()
+            </code>
+        </pre>
+
+          <p>
+            I started with the protocol for Building struct. There I put
+            properties for rooms as Int, for cost as Int,
+            and for agentName as String. As it is not necessary to change these
+            properties further but necessary to read them I added { get
+            } without set to make sure that I cannot change them by
+            accident. Also, I added a method that has to be in all structs that
+            conform to my Building protocol and it is
+            the salesSummary() method. I don’t need to put the
+            whole method I just need to make sure this one will be in every
+            struct that follows this protocol.
+          </p>
+
+          <p>
+            As the next step, I wrote an extension for the Building protocol
+            where I specified exactly what needs to be printed by
+            the salesSummary() method. I created an extension to the protocol so
+            I don’t need to write a new method every time I create a new struct
+            that conforms to the Building protocol. To make the salesSummray()
+            method work as intended I used interpolation for the
+            print() string and added properties directly from the Building
+            protocol. But you need to make sure that the descriptor self is
+            added in front of the variable when you use it in the extension of
+            a protocol.
+          </p>
+
+          <p>
+            Then I created two structs House and Office that conform to
+            a Building protocol. In this case, I need to only specify the
+            properties as the salesSummary() method is covered by
+            the extension.  To make it easier to read large Int numbers I
+            used Underscores ( _ ) as they are allowed between digits for
+            readability, but they're ignored and therefore don't affect the
+            value.
+          </p>
+
+          <h4>
+            <a
+              href="https://www.hackingwithswift.com/quick-start/beginners/checkpoint-9"
+              >Checkpoint 9.</a
+            >
+          </h4>
+          <p>
+            When starting to read this checkpoint challenge I thought that I
+            would need to write a lot of code as the previous ones expected you
+            to write longer code. This is a checkpoint #9 and it covers almost
+            everything but at the same time makes you think twice
+            because the the most important part here is that you need to write
+            the solution in one line of code. 
+          </p>
+
+          <div class="prompt">
+            <p>
+              1. Write a function that accepts an optional array of integers,
+              and returns one of those integers randomly.
+            </p>
+            <p>
+              2. If the array is missing or empty, return a new random number in
+              the range 1 through 100.
+            </p>
+            <p>3. Write your function in a single line of code.</p>
+          </div>
+
+          <p>
+            To tell you the truth it is the shortest solution out of all 9 of
+            them. And if you understand it you will appreciate the beauty of
+            Swift.
+          </p>
+
+          <pre class="code-block">
+            <code>
+                <span class="keyword">let</span> <span class="variable">randomInt</span> = {(_ randomArr: [<span class="type">Int</span>]?) -&gt; <span class="type">Int</span> <span class="keyword">in</span> randomArr?<span class="type">randomElement</span>() ?? <span class="type">Int</span>.<span class="type">random</span>(in: <span class="number">1</span>...<span class="number">100</span>)}
+                
+                <span class="type">randomInt</span>([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>])
+            </code>
+        </pre>
+
+          <p>
+            So here I have to use my knowledge of closures, optional,
+            and nil-coalescing operators. 
+          </p>
+          <p>
+            I started with creating a closure that takes an array of Int and
+            returns a random Int out of that array randomly. As I don’t want to
+            use any parameter names when calling a function I used the ( _
+            ) underscore for it. To show that I am not sure whether the array
+            passed to the function exists or is valid I had to put a question
+            mark after the parameter ([Int]?). It is important not to forget to
+            use an arrow if you have to return something (->) and specify what
+            you need to return by adding a type after it (-> Int). 
+          </p>
+          <p>
+            The important part of a closure is (in) as it shows you where the
+            code itself starts. 
+          </p>
+          <p>
+            As the parameter randomArr is optional I have to put a question mark
+            (?) after it to show that it is optional. Because I needed to return
+            a random item from the array I used the .randomElement() method
+            after it which allows us to do it.
+          </p>
+          <p>
+            There is a problem as it is optional I need to return something
+            because it will be checked if it array exists or not
+            automatically and if not complier will crash. For that purpose, I
+            used nil-coalescing operator (??). It pretty much says if something
+            before me doesn’t work use the one after me. And for that purpose, I
+            used Int.random(in: 1…100) which always returns an integer in the
+            range from 1 to 100.
+          </p>
+          <p>
+            The code is very tiny and it works. It needs a little bit more study
+            on how to read it but it saves much time if you can understand and
+            use it in your programs. 
+          </p>
+
+          <p>
+            I wrote about these 9 Checkpoints and my solutions to them because
+            writing helps to revise and go through the challenges once again. I
+            hope it can help someone to have their “Aha” moments for Swift
+            language concepts.   
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="copywrites">
+        <p>SwiftingGears &copy; 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
