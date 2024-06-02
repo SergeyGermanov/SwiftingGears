@@ -28,6 +28,30 @@ header {
   overflow-x: auto; /* Allow horizontal scrolling */
 }
 
+/* Privacy page */
+.copywrites h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #ff5733;
+}
+
+.copywrites p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.copywrites a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.copywrites:hover a {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
 /* Code Snippet */
 .code-line {
   display: block;
