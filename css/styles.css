@@ -28,6 +28,34 @@ header {
   overflow-x: auto; /* Allow horizontal scrolling */
 }
 
+/* My apps page */
+hr.rounded {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+  margin: 0 50px 30px 50px;
+  /* margin-bottom: 40px; */
+}
+
+.title-apps {
+  text-align: center;
+  color: #282727;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 88vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-card img {
+  display: block;
+  max-width: 35em;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 /* Privacy page */
 .copywrites h1 {
   text-align: center;
@@ -211,7 +239,7 @@ article {
     text-align: justify;
   }
 
-  .about-me {
+  .support {
     font-size: 22px;
     line-height: 1.5;
     font-weight: 500;
@@ -219,12 +247,6 @@ article {
     text-align: justify;
     font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
   }
-
-  .about-me:last-child {
-    padding-bottom: 40px;
-  }
-
-
   
   article a {
     color: #ff5733;
